@@ -7,5 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AcceptanceTaskApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AcceptanceTaskApplication.class, args);
+		System.out.println("""
+
+				All people from datebase:   http://localhost
+				Person by id 1:             http://localhost/1
+								
+				""");
 	}
 }
