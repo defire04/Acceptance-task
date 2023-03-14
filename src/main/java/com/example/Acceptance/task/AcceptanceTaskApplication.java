@@ -9,7 +9,7 @@ public class AcceptanceTaskApplication {
 		SpringApplication.run(AcceptanceTaskApplication.class, args);
 		System.out.println("""
 
-				All people from datebase:   http://localhost
+				All people from database:   http://localhost
 				Person by id 1:             http://localhost/1
 								
 				""");

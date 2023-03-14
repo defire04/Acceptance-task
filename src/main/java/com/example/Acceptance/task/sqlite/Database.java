@@ -10,10 +10,10 @@ public class Database {
             Statement statement = connection.createStatement();
             statement.setQueryTimeout(30);
 
-            statement.executeUpdate("drop table if exists person");
-            statement.executeUpdate("create table person (id integer, name varchar, surname varchar, birth_date TEXT)");
-            statement.executeUpdate("insert into person (id, name, surname, birth_date) values(1, 'Max', 'Petrov',  '2004-04-19')");
-            statement.executeUpdate("insert into person (id, name, surname, birth_date) values(2, 'Yui', 'Ruban', '2000-11-15')");
+//            statement.executeUpdate("drop table if exists person");
+//            statement.executeUpdate("create table person (id integer, name varchar, surname varchar, birth_date TEXT)");
+//            statement.executeUpdate("insert into person (id, name, surname, birth_date) values(1, 'Max', 'Petrov',  '2004-04-19')");
+//            statement.executeUpdate("insert into person (id, name, surname, birth_date) values(2, 'Yui', 'Ruban', '2000-11-15')");
 
         } catch (SQLException e) {
 
