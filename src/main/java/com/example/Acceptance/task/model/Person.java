@@ -1,7 +1,9 @@
 package com.example.Acceptance.task.model;
 
-import javax.persistence.*;
+
 import com.fasterxml.jackson.annotation.JsonView;
+import jakarta.persistence.*;
+
 @Entity
 public class Person {
     @Id
