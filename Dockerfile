@@ -20,7 +20,7 @@
 #
 FROM maven:3.8.1-openjdk-15-slim AS build
 COPY . .
-RUN mvn clean package -Pprod -DskipTests
+RUN mvn clean package -DskipTests
 
 #
 # Package stage
